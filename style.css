@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #ddd;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: palevioletred;
+    font-size: 2.5rem;
+    font: Arial;
+    letter-spacing: 1.5px;
+}
+
+textarea {
+    border: none;
+    border-radius: 5px;
+    background-color: #fffdfd;
+    padding: 5px;
+    margin: 20px 0 30px;
+    width: 320px;
+    height: 70px;
+}
+
+
+.options {
+    width: 320px;
+    margin: 10px 0;
+}
+
+.float-container {
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.value {
+    border: none;
+    width: 25px;
+    height:25px;
+    line-height: 25px;
+    text-align: center;
+    background: palevioletred;
+    color: #ddd;
+    border-radius: 5px;
+    float: right;
+}
+
+input[type="range"] {
+    width: 318px;
+}
+
+#voices {
+    width: 320px;
+    padding: 10px;
+    margin: 30px 0;
+    border-radius: 5px;
+    background: palevioletred;
+    color: #ddd;
+    border: none;
+    font-size: .9rem;
+}
+
+.no-focus:focus {
+    outline: none;
+}
+
+.btn {
+    border-radius: 5px;
+    background: #ddd;
+    color: palevioletred;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    font-size: 1rem;
+    cursor: pointer;
+}
